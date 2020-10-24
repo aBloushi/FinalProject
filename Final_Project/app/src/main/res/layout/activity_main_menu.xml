@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3476ad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarMain"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_marginBottom="20dp"
+            tools:layout_editor_absoluteX="0dp"
+            />
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/Car"
+            android:layout_width="271dp"
+            android:layout_height="184dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:fillColor="#FFFFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:pageColor="#00000000"
+            app:radius="6dp"
+            app:slideInterval="3000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp" />
+
+
+        <TextView
+            android:id="@+id/Best"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:text="Best Selling:"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="26sp" />
+
+        <HorizontalScrollView
+            android:layout_width="398dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="#205b8c">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="1dp">
+
+                <ImageView
+                    android:id="@+id/h141"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/it" />
+
+                <ImageView
+                    android:id="@+id/h11"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/harry1" />
+
+                <ImageView
+                    android:id="@+id/hu21"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/hunger2" />
+
+                <ImageView
+                    android:id="@+id/h21"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/harry2" />
+
+                <ImageView
+                    android:id="@+id/h3413"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/pet" />
+
+                <ImageView
+                    android:id="@+id/hu11"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/hunger1" />
+
+                <ImageView
+                    android:id="@+id/h31"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/harry3" />
+
+                <ImageView
+                    android:id="@+id/h313"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/shin" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/newl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:text="Newly Added:"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="26sp" />
+
+        <HorizontalScrollView
+            android:layout_width="398dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="#205b8c">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="1dp">
+
+
+                <ImageView
+                    android:id="@+id/h342413"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+
+                    android:background="#c1c1c1"
+                    android:src="@drawable/pet" />
+
+                <ImageView
+                    android:id="@+id/h56313"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/shin" />
+
+                <ImageView
+                    android:id="@+id/h22"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+
+                    android:background="#c1c1c1"
+                    android:src="@drawable/harry2" />
+
+                <ImageView
+                    android:id="@+id/h12"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/harry1" />
+
+                <ImageView
+                    android:id="@+id/hu12"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/hunger1" />
+
+                <ImageView
+                    android:id="@+id/h32"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/harry3" />
+
+                <ImageView
+                    android:id="@+id/h14421"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/it" />
+
+
+                <ImageView
+                    android:id="@+id/hu22"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/hunger2" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/reco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Recommended:"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="26sp" />
+
+        <HorizontalScrollView
+            android:layout_width="398dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="#205b8c">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="1dp">
+                <ImageView
+                    android:id="@+id/hu23"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/hunger2" />
+
+                <ImageView
+                    android:id="@+id/f3h33"
+
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/harry2" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/hunger1" />
+                <ImageView
+                    android:id="@+id/e6wh14421"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/it" />
+
+
+                <ImageView
+                    android:id="@+id/h565313"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/shin" />
+
+                <ImageView
+                    android:id="@+id/h3424413"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/pet" />
+
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/h533"
+
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/harry3" />
+
+
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#c1c1c1"
+                    android:src="@drawable/harry1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+</ScrollView>
